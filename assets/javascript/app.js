@@ -52,5 +52,15 @@ function renderBttns(){
   }
 }
 
+$("#add-giff").on("click", function() {
+        
+  event.preventDefault();
+  var giff = $("#giff-input").val().trim();
+       
+  giffBttns.push(giff);
+
+  renderBttns();
+});
+
 $(document).on("click", ".giff-btn", displayGiffInfo);
 renderBttns();
