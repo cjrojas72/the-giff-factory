@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+<link rel="stylesheet" href="style.css">
+<title>The Giff Factory</title>
+</head>
+<body>
+
+  <div class="container">
+    <header class="jumbotron bg-dark">
+      <h1 class="text-center text-white">The Giff Factory</h1>
+    </header>
+
+    <div class = "row">
+      <div class = "col text-center">
+        <form id="user-form">
+          <label for="giff-input"></label>
+          <input type="text" id="giff-input">
+          <input id="add-giff" type="submit" value="Add a Giff Button">
+        </form>
+      </div>
+    </div>
+
+    <section class="card mt-4">
+      <div class="card-title bg-dark text-white p-2">Factory Buttons</div>
+      
+      <div id="factory-bttns" class="card-body">
+        <div id="bttn-display"></div>
+      </div>
+    </section>
+
+    <section id= "giff-display"></section>
+  </div>
+
+
+
+<!-- scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
